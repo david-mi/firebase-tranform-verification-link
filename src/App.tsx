@@ -53,6 +53,7 @@ function App() {
         autoClose={1500}
         className={styles.toast}
         toastClassName={styles.toast}
+        pauseOnFocusLoss={false}
       />
     </>
   );
